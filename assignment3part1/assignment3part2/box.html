@@ -1,0 +1,46 @@
+<!--
+Name: Ayuk Ita Ayum Delight
+File: box.html
+Date: 23 Feb 2025
+A brief description of the file: This file makes a box using css skills.
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Box</title>
+    <style>
+      /* Base styles */
+      html {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Box styles */
+      .cool-box {
+        width: 200px;
+        height: 100px;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%), 
+                    red;
+        color: white;
+        font-size: 1.2rem; /* 1.2rem is approximately 19.2px (assuming the default root font size is 16px) */
+        font-weight: bold;
+        text-align: center;
+        line-height: 100px; /* Centers the text vertically */
+        border-radius: 15px;
+        border: 1px solid darkred;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+                    inset 3px 3px 5px rgba(255, 255, 255, 0.5),
+                    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cool-box">This is a cool box</div>
+  </body>
+</html>
